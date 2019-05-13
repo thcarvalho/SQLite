@@ -1,0 +1,4 @@
+#Mon May 13 00:00:31 BRT 2019
+base.0=C\:\\Users\\Thaian\\AndroidStudioProjects\\Banco\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex
