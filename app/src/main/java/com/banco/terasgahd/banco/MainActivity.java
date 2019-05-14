@@ -17,7 +17,7 @@ import com.banco.terasgahd.banco.model.Usuarios;
 public class MainActivity extends AppCompatActivity {
 
     private TextInputEditText txtlogin;
-    private TextInputEditText txtemail;
+    private EditText txtemail;
     private EditText txtsenha;
 
     @Override
@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
             usuarios.setSenha(senha);
             usuariosDAO.salvar(usuarios);
         }
+        txtlogin.setText("");
+        txtemail.setText("");
+        txtsenha.setText("");
 
         Toast.makeText(getApplicationContext(),"Novo usuario cadastrado!",Toast.LENGTH_SHORT).show();
     }
